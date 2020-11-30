@@ -1,0 +1,18 @@
+:host{
+	background: url("../../assets/background.png");
+	background-size: cover;
+	display: block;
+	min-height: calc(100vh - 140px);
+	padding-top: 140px;
+}
+section {
+	margin: 0 auto;
+	max-width: calc(100vw - 12%);
+}
+
+h1 {
+	font-family: "Druk Wide Cy Web Bold", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}

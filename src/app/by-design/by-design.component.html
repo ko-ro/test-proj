@@ -1,0 +1,17 @@
+<section>
+	<h1>Співбесіда</h1>
+	<mat-form-field appearance="outline">
+		<mat-label>Дата</mat-label>
+		<input matInput autocomplete="off" [matDatepicker]="picker">
+		<mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+		<mat-datepicker #picker></mat-datepicker>
+	</mat-form-field>
+	<mat-form-field appearance="outline">
+		<mat-label >Час</mat-label>
+		<input matInput autocomplete="off">
+	</mat-form-field>
+	<mat-form-field appearance="outline">
+		<mat-label>Адреса</mat-label>
+		<input matInput name="street-address">
+	</mat-form-field>
+</section>
